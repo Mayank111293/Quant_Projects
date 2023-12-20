@@ -25,7 +25,7 @@ I performed first order differencing on the data to make it stationary and verif
 For determining the lags, I used the pacf and acf plots using statsmodels library and observed statistically significant lags at 4 for both tried to fit the ARIMA model on the differenced series with parameters (AR-4, I -1, MA -4).
 Compared the model results with actual stock price value.
 
- ## Project 4 :-  Calculation of Value-at-Risk and Expected Shortfall
+ ## Project 5 :-  Calculation of Value-at-Risk and Expected Shortfall
 
 Downloaded 5 stocks data from yahoo finance and calculated the mean and standard deviation(using Modern Portfolio theory) and covariance among the 5 stocks.
 Calculated the historical 1-day VaR and ES using numpy percentile function at a confidence interval of 95% for a portfolio amount of $500000.
